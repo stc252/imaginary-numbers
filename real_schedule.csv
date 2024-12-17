@@ -1,0 +1,15 @@
+schedule ,team 1,team 2,team 3,team 4,team 5,team 6,team 7,team 8,team 9,team 10,team 11,team 12,team 13,team 14
+week 1,Infinite Jest,Turing Tested,The Parker Squares,Humbling PI,A Rhombus Among Us ,Dream Killer,Mould Effect,Like and Subscribed,Not the bestagons,3Blues Clues,Teapot Assassins,The one real i,Pi^rescue,Sine Me Up
+week 2,The Parker Squares,Infinite Jest,Turing Tested,A Rhombus Among Us ,Humbling PI,Mould Effect,Dream Killer,Not the bestagons,Like and Subscribed,Teapot Assassins,3Blues Clues,Pi^rescue,The one real i,Sine Me Up
+week 3,Infinite Jest,A Rhombus Among Us ,Mould Effect,The Parker Squares,Not the bestagons,Turing Tested,Teapot Assassins,Humbling PI,Pi^rescue,Dream Killer,Sine Me Up,Like and Subscribed,The one real i,3Blues Clues
+week 4,Mould Effect,Infinite Jest,A Rhombus Among Us ,Not the bestagons,The Parker Squares,Teapot Assassins,Turing Tested,Pi^rescue,Humbling PI,Sine Me Up,Dream Killer,The one real i,Like and Subscribed,3Blues Clues
+week 5,Infinite Jest,Not the bestagons,Teapot Assassins,Mould Effect,Pi^rescue,A Rhombus Among Us ,Sine Me Up,The Parker Squares,The one real i,Turing Tested,3Blues Clues,Humbling PI,Like and Subscribed,Dream Killer
+week 6,Teapot Assassins,Infinite Jest,Not the bestagons,Pi^rescue,Mould Effect,Sine Me Up,A Rhombus Among Us ,The one real i,The Parker Squares,3Blues Clues,Turing Tested,Like and Subscribed,Humbling PI,Dream Killer
+week 7,Infinite Jest,Pi^rescue,Sine Me Up,Teapot Assassins,The one real i,Not the bestagons,3Blues Clues,Mould Effect,Like and Subscribed,A Rhombus Among Us ,Dream Killer,The Parker Squares,Humbling PI,Turing Tested
+week 8,Sine Me Up,Infinite Jest,Pi^rescue,The one real i,Teapot Assassins,3Blues Clues,Not the bestagons,Like and Subscribed,Mould Effect,Dream Killer,A Rhombus Among Us ,Humbling PI,The Parker Squares,Turing Tested
+week 9,Infinite Jest,The one real i,3Blues Clues,Sine Me Up,Like and Subscribed,Pi^rescue,Dream Killer,Teapot Assassins,Humbling PI,Not the bestagons,Turing Tested,Mould Effect,The Parker Squares,A Rhombus Among Us 
+week 10,3Blues Clues,Infinite Jest,The one real i,Like and Subscribed,Sine Me Up,Dream Killer,Pi^rescue,Humbling PI,Teapot Assassins,Turing Tested,Not the bestagons,The Parker Squares,Mould Effect,A Rhombus Among Us 
+week 11,Infinite Jest,Like and Subscribed,Dream Killer,3Blues Clues,Humbling PI,The one real i,Turing Tested,Sine Me Up,The Parker Squares,Pi^rescue,A Rhombus Among Us ,Teapot Assassins,Mould Effect,Not the bestagons
+week 12,Dream Killer,Infinite Jest,Like and Subscribed,Humbling PI,3Blues Clues,Turing Tested,The one real i,The Parker Squares,Sine Me Up,A Rhombus Among Us ,Pi^rescue,Mould Effect,Teapot Assassins,Not the bestagons
+week 13,Infinite Jest,Humbling PI,Turing Tested,Dream Killer,The Parker Squares,Like and Subscribed,A Rhombus Among Us ,3Blues Clues,Mould Effect,The one real i,Not the bestagons,Sine Me Up,Teapot Assassins,Pi^rescue
+week 14,Turing Tested,Infinite Jest,Humbling PI,The Parker Squares,Dream Killer,A Rhombus Among Us ,Like and Subscribed,Mould Effect,3Blues Clues,Not the bestagons,The one real i,Teapot Assassins,Sine Me Up,Pi^rescue
