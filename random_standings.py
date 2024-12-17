@@ -20,7 +20,6 @@ def generate_random_schedule(teams):
     num_teams = len(teams)
     schedule = {team: [] for team in teams}
 
-    # Generate matchups for each week
     for week in range(num_weeks):
         available_teams = list(teams.keys())
         random.shuffle(available_teams)
@@ -34,7 +33,6 @@ def generate_random_schedule(teams):
             schedule[team1].append(team2)
             schedule[team2].append(team1)
 
-    # Week 14: Repeat Week 1 matchups
     for team in teams:
         schedule[team].append(schedule[team][0])
 
@@ -73,13 +71,21 @@ def run_simulations(teams, num_simulations):
             total_standings[team]['losses'] += standings[team]['losses']
             win_records[team].append(standings[team]['wins'])
 
+    # Calculate the percentages of each win value
+    win_percentages = {
+        team: {wins: count / num_simulations * 100 for wins, count in Counter(win_records[team]).items()}
+        for team in win_records
+    }
+
     # Average the standings
-    avg_standings = {team: {'avg_wins': total_standings[team]['wins'] / num_simulations,
-                            'avg_losses': total_standings[team]['losses'] / num_simulations,
-                            'min_wins': min(win_records[team]),
-                            'max_wins': max(win_records[team]),
-                            'mode_wins': Counter(win_records[team]).most_common(1)[0][0]}
-                     for team in total_standings}
+    avg_standings = {
+        team: {
+            'avg_wins': total_standings[team]['wins'] / num_simulations,
+            'avg_losses': total_standings[team]['losses'] / num_simulations,
+            'win_percentages': win_percentages[team]
+        }
+        for team in total_standings
+    }
 
     return avg_standings
 
@@ -88,7 +94,8 @@ def print_avg_standings(avg_standings):
     sorted_avg_standings = sorted(avg_standings.items(), key=lambda x: x[1]['avg_wins'], reverse=True)
     for team, record in sorted_avg_standings:
         print(f"{team}: {record['avg_wins']:.2f} avg wins, {record['avg_losses']:.2f} avg losses")
-        print(f"Min wins: {record['min_wins']}, Max wins: {record['max_wins']}, Mode wins: {record['mode_wins']}")
+        for wins, percent in sorted(record['win_percentages'].items()):
+            print(f"  {wins} wins: {percent:.2f}%")
 
 
 # Process CSV and get team data
