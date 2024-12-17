@@ -1,4 +1,4 @@
-for the actual_schedule.csv, teams are paired against each other in consecutive pairs.
+for the actual_schedule.csv, weekly team opponents are in consecutive pairs.
 
 For each week:
   team1 plays team2
